@@ -5,10 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { Carousel01Component } from './shared/carousel/carousel-01/carousel-01.component';
+import { HomeComponent } from './views/home/home.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Carousel01Component,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
